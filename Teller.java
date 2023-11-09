@@ -1,8 +1,12 @@
 public class Teller{
     
-    private char farbe; 
+    private int groesse; 
 
-    public Teller(){
+    public Teller(int groesse){
+        this.groesse = groesse; 
+    }
 
+    public int getGroesse(){
+        return groesse; 
     }
 }
