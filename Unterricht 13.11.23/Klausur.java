@@ -33,6 +33,6 @@ public class Klausur {
       this.note = note;
     }
   
-    // Ende Methoden
-  } // end of Klausur
+    
+  } 
   
