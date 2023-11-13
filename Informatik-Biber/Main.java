@@ -1,12 +1,13 @@
 public class Main {
 
-
-  private static Stack<Teller> teller;
-  private static Queue<Biber> biber;
+  private static Stack<Teller> teller = new Stack<Teller>(); 
+  private static Queue<Biber> biber = new Queue<Biber>(); 
 
   public static boolean groessePasst() {
-    Queue<Biber> hilfBiber = biber;
-    Stack<Teller> hilfTeller = teller;
+    Queue<Biber> hilfBiber = new Queue<Biber>(); 
+    hilfbiber = biber;
+    Stack<Teller> hilfTeller = new Stack<Teller>(); 
+    hilfTeller = teller; 
     while (!biber.isEmpty()) {
       if (biber.front().getGroesse() != teller.top().getGroesse()) {
         biber = hilfBiber;
@@ -23,7 +24,6 @@ public class Main {
   }
 
   public static void main(String[] args) {
-
 
     //test 
     teller = new Stack<>();
