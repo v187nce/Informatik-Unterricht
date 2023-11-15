@@ -1,4 +1,4 @@
-import java.util.Queue;
+import java.util.*; 
 import java.util.Stack;
 
 public class Main {
@@ -12,12 +12,12 @@ public class Main {
     Stack<Teller> hilfTeller = new Stack<Teller>(); 
     hilfTeller = teller; 
     while (!biber.isEmpty()) {
-      if (biber.front().getGroesse() != teller.top().getGroesse()) {
+      if (biber.peek().getGroesse() != teller.peek().getGroesse()) {
         biber = hilfBiber;
         teller = hilfTeller;
         return false;
       } else {
-        biber.dequeue();
+        biber.poll();
         teller.pop();
       }
     }
@@ -32,7 +32,7 @@ public class Main {
     teller = new Stack<>();
     biber = new Queue<>();
     teller.push(new Teller(1));
-    biber.enqueue(new Biber(1));
+    biber.offer(new Biber(1));
 
     System.out.println(groessePasst());
   }
