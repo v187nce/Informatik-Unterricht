@@ -4,15 +4,8 @@ public class Palindrom {
   Stack<Character> stack = new Stack<Character>();
   Queue<Character> queue = new Queue<Character>();
 
-  public void testeStringMethoden() {
-    String s = "Hallo";
-    System.out.println(s);
-    System.out.println(s.charAt(0));
-    System.out.println(s.charAt(3));
-    System.out.println("length: " + s.length());
-    System.out.println(s.charAt(0));
-    System.out.println(s.substring(3));
-    System.out.println(s.substring(1, 3));
+  public void testeString(){
+    
   }
 
   public boolean palindrom(String palindromWort) {
