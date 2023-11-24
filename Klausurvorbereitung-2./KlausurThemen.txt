@@ -1,0 +1,8 @@
+Themen für die 2. Informatik Klausur: 
+- Stack 
+- Queue 
+- Liste -> nur Funktionalität und Eigenschafte, mögliche Verwendungszwecke -> keine Methoden
+- Anwendungsaufgaben für Stack und Queue 
+- Objekt-und Implementationsdiagramme
+- Struktogramm eventuell auch
+- sortieren mit Stack und Queue 

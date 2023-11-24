@@ -97,7 +97,7 @@ public List() {
   * @return true, falls Zugriff moeglich, sonst false
   */
  public boolean hasAccess() {
-    return current != null; 
+    return current != null;
  }
 
  /**
@@ -110,7 +110,7 @@ public List() {
  public void next() {
    if(this.hasAccess()){
     current = current.getNextNode();
-   } 
+   }
  }
 
  /**

@@ -6,5 +6,6 @@ public class Main {
         System.out.println(palindrom.palindrom("heyho"));
         System.out.println(palindrom.palindrom("anna"));
         System.out.println(palindrom.createPalindrom("spass"));
+        
     }
 }
