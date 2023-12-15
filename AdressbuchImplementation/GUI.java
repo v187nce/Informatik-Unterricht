@@ -90,10 +90,11 @@ public class GUI extends JFrame {
   } // end of public GUI
   
   // Anfang Methoden
-  
+
   public static void main(String[] args) {
-    new GUI();
-  } // end of main
+    new GUI(); 
+}
+  
   
   public void bHinzufuegen1_ActionPerformed(ActionEvent evt) {
     // TODO hier Quelltext einfügen
