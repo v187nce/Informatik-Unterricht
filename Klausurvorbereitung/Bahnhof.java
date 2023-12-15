@@ -32,8 +32,12 @@ public class Bahnhof{
         gleisC.pop();
     }
     public void rangiereCzuB(){
-        gleisB.push(gleisC.top()); 
+        gleisB.push(gleisC.top());
         gleisC.pop();
+    }
+
+    public void sortiereWagons(){
+        
     }
 
 }

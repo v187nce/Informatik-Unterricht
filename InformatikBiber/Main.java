@@ -10,7 +10,7 @@ public class Main {
 
   public static boolean groessePasst() {
     Queue<Biber> hilfBiber = new Queue<Biber>(); 
-    hilfbiber = biber;
+    hilfBiber = biber;
     Stack<Teller> hilfTeller = new Stack<Teller>(); 
     hilfTeller = teller; 
     while (!biber.isEmpty()) {
