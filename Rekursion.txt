@@ -1,0 +1,9 @@
+Rekursion: 
+
+Rekursion bezeichnet ein algorithmisches Konzept. Rekursive Algorithmen benutzen zur Bearbeitung eines Problems Selbstaufrufe, die zu einer verschachtelten Abarbeitung führen.
+
+Bei jedem Selbstaufruf sollte sich das Anfangsproblem verkleinern bis nach endlich vielen Schritten ein nicht-rekursiver Zweig durchlaufen wird.
+
+Rekursionsschema: 
+
+wenn das Problem klein genug ist, führe einen nicht-rekursiven Zweig aus ansonsten führe einen rekursiven Zweig aus, bei dem sich das Problem verkleinert
