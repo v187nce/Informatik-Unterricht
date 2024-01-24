@@ -6,4 +6,11 @@ Bei jedem Selbstaufruf sollte sich das Anfangsproblem verkleinern bis nach endli
 
 Rekursionsschema: 
 
-wenn das Problem klein genug ist, führe einen nicht-rekursiven Zweig aus ansonsten führe einen rekursiven Zweig aus, bei dem sich das Problem verkleinert
+wenn das Problem klein genug ist, führe einen nicht-rekursiven Zweig aus ANSONSTEN führe einen rekursiven Zweig aus, bei dem sich das Problem verkleinert
+
+Aufwand:
+
+Rekursive Methoden erfordern in der Praxis häufig einen hohen Rechenaufwand. So verdoppelt sich bei den Türmen von Hanoi die Zahl der Verschiebungen mit jeder zusätzlichen Scheibe auf dem Ausgangsturm.
+Der Aufwand wächst exponentiell: o(2^n)
+
+Man sagt: ,,Der Algorithmus ist von der Ordnung 2^n." 
