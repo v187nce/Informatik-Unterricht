@@ -5,7 +5,7 @@ public class Palindrom{
             return true; 
         } else {
             if (wort.charAt(0) == wort.charAt(wort.length()-1)){
-                
+                // prüfe palindrom mit wort ohne 1. und letze zeichen -> return true 
             } else {
                 return false; 
             }
